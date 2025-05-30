@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/butter-bread-ai/static/css/main.3cae9e75.css",
+    "main.js": "/butter-bread-ai/static/js/main.110e31f2.js",
+    "static/media/butter-bg.png": "/butter-bread-ai/static/media/butter-bg.ccd56a62652f2c5f4a28.png",
+    "static/media/third.png": "/butter-bread-ai/static/media/third.819bc4c9f019b71398d4.png",
+    "static/media/second.png": "/butter-bread-ai/static/media/second.4fdbc930202588914873.png",
+    "static/media/SegoeUI.eot": "/butter-bread-ai/static/media/SegoeUI.ce86fe389c280aacdee3.eot",
+    "static/media/SegoeUI.ttf": "/butter-bread-ai/static/media/SegoeUI.ef1c00b65a5fd5bae3bb.ttf",
+    "static/media/SegoeUI-Bold.eot": "/butter-bread-ai/static/media/SegoeUI-Bold.e95d9f2db99a452b6d5e.eot",
+    "static/media/SegoeUI-Bold.ttf": "/butter-bread-ai/static/media/SegoeUI-Bold.62f56c089745418bb373.ttf",
+    "static/media/SegoeUI-SemiBold.eot": "/butter-bread-ai/static/media/SegoeUI-SemiBold.4ec878e45487e3a86fbd.eot",
+    "static/media/SegoeUI-SemiBold.ttf": "/butter-bread-ai/static/media/SegoeUI-SemiBold.d3ebb785eab2e77c2144.ttf",
+    "static/media/SegoeUI-BoldItalic.eot": "/butter-bread-ai/static/media/SegoeUI-BoldItalic.1f38a762d1c3b24a3729.eot",
+    "static/media/SegoeUI-BoldItalic.ttf": "/butter-bread-ai/static/media/SegoeUI-BoldItalic.b37f4f29c37ccfc896f2.ttf",
+    "static/media/SegoeUI-Italic.eot": "/butter-bread-ai/static/media/SegoeUI-Italic.c018b630c4b158327288.eot",
+    "static/media/SegoeUI-Italic.ttf": "/butter-bread-ai/static/media/SegoeUI-Italic.cf4e19a73b8512765a43.ttf",
+    "static/media/SegoeUI-Light.eot": "/butter-bread-ai/static/media/SegoeUI-Light.bdc80ae65e4c86cc203d.eot",
+    "static/media/SegoeUI-Light.ttf": "/butter-bread-ai/static/media/SegoeUI-Light.a4cb537856834f0a73b1.ttf",
+    "static/media/SegoeUI.woff": "/butter-bread-ai/static/media/SegoeUI.f9d072ec3d5c7d9956d2.woff",
+    "static/media/SegoeUI-Bold.woff": "/butter-bread-ai/static/media/SegoeUI-Bold.396319bfefa14eeb05a3.woff",
+    "static/media/SegoeUI-SemiBold.woff": "/butter-bread-ai/static/media/SegoeUI-SemiBold.abaaa98155d53c0b454c.woff",
+    "static/media/SegoeUI-BoldItalic.woff": "/butter-bread-ai/static/media/SegoeUI-BoldItalic.f4ced5252d8781ead35b.woff",
+    "static/media/SegoeUI-Italic.woff": "/butter-bread-ai/static/media/SegoeUI-Italic.53caad45986c555ccee5.woff",
+    "static/media/SegoeUI.woff2": "/butter-bread-ai/static/media/SegoeUI.a8b8657ebede05f16bae.woff2",
+    "static/media/SegoeUI-Light.woff": "/butter-bread-ai/static/media/SegoeUI-Light.6025459259e49a5b53de.woff",
+    "static/media/SegoeUI-Bold.woff2": "/butter-bread-ai/static/media/SegoeUI-Bold.c896e4afc36ba3635b3a.woff2",
+    "static/media/SegoeUI-SemiBold.woff2": "/butter-bread-ai/static/media/SegoeUI-SemiBold.aaed3f515c66146622e7.woff2",
+    "static/media/SegoeUI-BoldItalic.woff2": "/butter-bread-ai/static/media/SegoeUI-BoldItalic.cf4ff2702872de25c047.woff2",
+    "static/media/SegoeUI-Italic.woff2": "/butter-bread-ai/static/media/SegoeUI-Italic.d30e47d2c1211bd26f2c.woff2",
+    "static/media/SegoeUI-Light.woff2": "/butter-bread-ai/static/media/SegoeUI-Light.b115cb2cc7620e972661.woff2",
+    "static/media/sbp-logo.png": "/butter-bread-ai/static/media/sbp-logo.cf86cb5b7267610c4340.png",
+    "index.html": "/butter-bread-ai/index.html",
+    "main.3cae9e75.css.map": "/butter-bread-ai/static/css/main.3cae9e75.css.map",
+    "main.110e31f2.js.map": "/butter-bread-ai/static/js/main.110e31f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cae9e75.css",
+    "static/js/main.110e31f2.js"
+  ]
+}
