@@ -1,0 +1,301 @@
+.payment-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.payment-steps {
+    display: flex;
+    gap: 30px;
+}
+
+.step {
+    position: relative;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.step.active {
+    color: #ecbe3036;
+    font-weight: 600;
+}
+
+.step.completed {
+    color: #4bb543;
+}
+
+.step:not(:last-child):after {
+    content: '›';
+    position: absolute;
+    right: -18px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Основной контент */
+.payment-main {
+    flex: 1;
+    padding: 40px 0;
+}
+
+.payment-grid {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+    .payment-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.payment-form,
+.order-summary {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #212529;
+}
+
+/* Методы оплаты */
+.payment-methods {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.method {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+    border: 2px solid #dee2e6;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.method:hover {
+    border-color: #c6c7cb;
+}
+
+.method.active {
+    border-color: #c6c7cb;
+    background-color: #ecbe3036;
+}
+
+.method .icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* Форма карты */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #495057;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #ecbe3036;
+}
+
+.form-group input::placeholder {
+    color: #adb5bd;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+/* Безопасность */
+.payment-security {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e9ecef;
+    text-align: center;
+}
+
+.secure-badge {
+    display: inline-block;
+    background-color: #f8f9fa;
+    padding: 8px 15px;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.payment-security p {
+    font-size: 12px;
+    color: #6c757d;
+}
+
+/* Информация о заказе */
+.plan-card {
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.plan-card.selected {
+    border-color: #ecbe3036;
+    background-color: #f8faff;
+}
+
+.plan-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #212529;
+}
+
+.plan-card .price {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: var(--section-color);
+}
+
+.plan-card .price span {
+    font-size: 14px;
+    font-weight: normal;
+    color: #6c757d;
+}
+
+.plan-card .features {
+    list-style: none;
+}
+
+.plan-card .features li {
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+    font-size: 14px;
+}
+
+.plan-card .features li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #4bb543;
+}
+
+/* Итого */
+.order-total {
+    margin-bottom: 25px;
+}
+
+.total-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e9ecef;
+    font-size: 14px;
+}
+
+.grand-total {
+    font-weight: 600;
+    font-size: 16px;
+    color: #212529;
+}
+
+/* Кнопка оплаты */
+.pay-button {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    background-color: var(--section-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    margin-bottom: 20px;
+}
+
+.pay-button:hover {
+    transform: scale(1.1);
+}
+
+/* Гарантия */
+.guarantee {
+    font-size: 13px;
+    color: #6c757d;
+}
+
+.guarantee p {
+    margin-bottom: 8px;
+}
+
+/* Альтернативные методы */
+.alternative-method {
+    padding: 20px 0;
+}
+
+.alternative-method p {
+    margin-bottom: 15px;
+    color: #495057;
+}
+
+.crypto-options {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.crypto-option {
+    padding: 10px 15px;
+    border: 3px solid #dee2e6;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.crypto-option:hover, .crypto-option.active {
+    border-color: var(--section-color);
+}
+
