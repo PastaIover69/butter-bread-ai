@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/butter-bread-ai/static/css/main.3cae9e75.css",
-    "main.js": "/butter-bread-ai/static/js/main.968c6a90.js",
+    "main.css": "/butter-bread-ai/static/css/main.96bb6377.css",
+    "main.js": "/butter-bread-ai/static/js/main.e5f9d62a.js",
     "static/media/third.png": "/butter-bread-ai/static/media/third.819bc4c9f019b71398d4.png",
     "static/media/second.png": "/butter-bread-ai/static/media/second.4fdbc930202588914873.png",
     "static/media/butter-bg.png": "/butter-bread-ai/static/media/butter-bg.0b97512ba083ed81be37.png",
@@ -31,11 +31,11 @@
     "static/media/SegoeUI-Light.woff2": "/butter-bread-ai/static/media/SegoeUI-Light.b115cb2cc7620e972661.woff2",
     "static/media/sbp-logo.png": "/butter-bread-ai/static/media/sbp-logo.cf86cb5b7267610c4340.png",
     "index.html": "/butter-bread-ai/index.html",
-    "main.3cae9e75.css.map": "/butter-bread-ai/static/css/main.3cae9e75.css.map",
-    "main.968c6a90.js.map": "/butter-bread-ai/static/js/main.968c6a90.js.map"
+    "main.96bb6377.css.map": "/butter-bread-ai/static/css/main.96bb6377.css.map",
+    "main.e5f9d62a.js.map": "/butter-bread-ai/static/js/main.e5f9d62a.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cae9e75.css",
-    "static/js/main.968c6a90.js"
+    "static/css/main.96bb6377.css",
+    "static/js/main.e5f9d62a.js"
   ]
 }
