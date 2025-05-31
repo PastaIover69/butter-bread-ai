@@ -26,7 +26,7 @@ function App() {
   return (
     
     <PlanProvider>
-    <Router>
+    <Router basename="/butter-bread-ai">
       <div className="app">
         <ScrollToTop />
         <Header tgBotLink={tgBotLink}/>
