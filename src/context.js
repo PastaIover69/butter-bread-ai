@@ -14,7 +14,6 @@ export function PlanProvider({ children }) {
       "Текстовые ответы",
     ],
   };
-  const tgBotLink = 'https://t.me/ButterBreadAI_bot?start=src=site';
   const [planData, setPlanData] = useState(initialPlanData);
 
   return (

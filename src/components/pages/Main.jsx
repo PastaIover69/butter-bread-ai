@@ -1,6 +1,5 @@
-import React, {useState, useContext} from 'react'
+import React, {useState} from 'react'
 import {Link} from 'react-router';
-import { PlanContext } from '../../context';
 
 import MainImg from '../../assets/img/butter-bg.png';
 import SecondImg from '../../assets/img/second.png'

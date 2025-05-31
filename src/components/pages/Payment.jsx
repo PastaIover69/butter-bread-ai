@@ -9,20 +9,7 @@ import SecondImg from '../../assets/img/second.png'
 
 const Payment = () => {
   const [paymentMethod, setPaymentMethod] = useState("card");
-  const [cardDetails, setCardDetails] = useState({
-    number: "",
-    name: "",
-    expiry: "",
-    cvv: "",
-  });
-
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setCardDetails((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
-  };
+  
 
   const { planData } = useContext(PlanContext);
 
