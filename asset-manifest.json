@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/butter-bread-ai/static/css/main.3cae9e75.css",
-    "main.js": "/butter-bread-ai/static/js/main.110e31f2.js",
+    "main.js": "/butter-bread-ai/static/js/main.f649aa93.js",
     "static/media/butter-bg.png": "/butter-bread-ai/static/media/butter-bg.ccd56a62652f2c5f4a28.png",
     "static/media/third.png": "/butter-bread-ai/static/media/third.819bc4c9f019b71398d4.png",
     "static/media/second.png": "/butter-bread-ai/static/media/second.4fdbc930202588914873.png",
@@ -32,10 +32,10 @@
     "static/media/sbp-logo.png": "/butter-bread-ai/static/media/sbp-logo.cf86cb5b7267610c4340.png",
     "index.html": "/butter-bread-ai/index.html",
     "main.3cae9e75.css.map": "/butter-bread-ai/static/css/main.3cae9e75.css.map",
-    "main.110e31f2.js.map": "/butter-bread-ai/static/js/main.110e31f2.js.map"
+    "main.f649aa93.js.map": "/butter-bread-ai/static/js/main.f649aa93.js.map"
   },
   "entrypoints": [
     "static/css/main.3cae9e75.css",
-    "static/js/main.110e31f2.js"
+    "static/js/main.f649aa93.js"
   ]
 }
