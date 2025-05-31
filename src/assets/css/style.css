@@ -653,7 +653,8 @@
         gap: 10px;
     }
 
-    .cta-button, .secondary-button {
+    .cta-button,
+    .secondary-button {
         width: fit-content;
         margin: 0 auto;
     }
@@ -668,19 +669,32 @@
         flex-wrap: wrap;
         gap: 20px;
     }
+
     .header nav {
         flex-wrap: wrap;
     }
+
     .header nav a {
         flex: 1 auto;
     }
+
     .tabs {
         flex-wrap: wrap;
     }
+
     .tabs button {
         flex: 1 auto;
     }
+
     .footer-content ul {
         list-style: none;
+    }
+
+    .payment-methods {
+        grid-gap: 10px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(1, 1fr) !important;
+        margin-bottom: 30px;
     }
 }

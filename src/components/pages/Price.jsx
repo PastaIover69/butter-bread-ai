@@ -2,6 +2,7 @@ import React, { useState, useContext } from "react";
 import { Link } from "react-router";
 import { PlanContext } from "../../context";
 import SecondImg from '../../assets/img/second.png'
+import MainStyle from '../../assets/css/style.css';
 
 export default function Price() {
   const [selectedPlan, setSelectedPlan] = useState("monthly");
